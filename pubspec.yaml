@@ -1,11 +1,14 @@
 name: circle_nav_bar
 description: A package provides an easy way to make circle button nav bar in Flutter project
-version: 2.2.0
+version: 2.3.0
 homepage: https://github.com/111coding/circle_nav_bar
+repository: https://github.com/111coding/circle_nav_bar
+issue_tracker: https://github.com/111coding/circle_nav_bar/issues
+documentation: https://github.com/111coding/circle_nav_bar#readme
 
 environment:
-  sdk: ">=2.17.0 <3.0.0"
-  flutter: ">=1.17.0"
+  sdk: ^3.9.2
+  flutter: ">=3.35.3"
 
 dependencies:
   flutter:
@@ -14,5 +17,29 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^6.0.0
 
 flutter:
+  # This package contains a plugin.
+  
+# Platform support
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+# Screenshots for pub.dev (optional)
+# screenshots:
+#   - description: 'Circle Navigation Bar Example'
+#     path: screenshots/example.png
+
+# Topics for better discoverability (optional)
+topics:
+  - ui
+  - navigation
+  - bottom-navigation
+  - circle
+  - material-design
